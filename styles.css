@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #9f1111;
+    background-image: url(Ale.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 200%;
+    background-position: top;
+}
+
+.mainArea {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(128, 128, 128, 0.396);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    max-width: 800px;
+    max-height: 1000px;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
