@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #9f1111;
@@ -14,36 +20,58 @@ body {
     background-position: top;
 }
 
-.mainArea {
+main {
     width: 80%;
     height: 80%;
-    background-color: rgba(128, 128, 128, 0.396);
+    background-color: rgba(0, 0, 0, 0.162);
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 20px;
+    padding: 5dvh;
     max-width: 800px;
     max-height: 1000px;
 }
 
-header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
+#objetivo{
+    text-align: left;;
+    color: white;
+    margin-top: 20px;
+    margin-right: 60%;
 }
 
-nav {
-    background-color: gray;
+#habilidades{
+    text-align: right;
     color: white;
-    padding: 10px;
-    text-align: center;
+    margin-top: 20px;
 }
 
-section {
+#habilidades ul{
+    text-align: right;;
+    direction: rtl;
+    list-style-position: inside;
+    color: white;
+    margin-left: 55%;
+}
+
+#certificaciones{
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+
+#certificaciones ul{
+    text-align: left;;
+    list-style-position: inside;
+    color: white;
+    margin-right: 50%;
+}
+
+#contactos {
     padding: 20px;
     text-align: center;
     color: white;
+    margin-top: 50vh;
 }
 
 footer {
