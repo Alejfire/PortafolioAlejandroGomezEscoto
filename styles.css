@@ -4,49 +4,53 @@
   padding: 0;
 }
 
+h2 {
+    color: rgb(190, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
 header {
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: #f2f2f22e;    
+    padding: 8px;
     text-align: center;
+    color: white;
+}
+
+#forBiscuit {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
 }
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background-color: #9f1111;
-    background-image: url(Ale.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto 200%;
-    background-position: top;
+    background-color: #451919;
 }
 
 main {
-    width: 80%;
-    height: 80%;
     background-color: rgba(0, 0, 0, 0.162);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 5dvh;
-    max-width: 800px;
-    max-height: 1000px;
+    padding: 5%;
 }
 
-#objetivo{
+#objective{
     text-align: left;;
     color: white;
     margin-top: 20px;
     margin-right: 60%;
 }
 
-#habilidades{
+#abilities{
     text-align: right;
     color: white;
     margin-top: 20px;
 }
 
-#habilidades ul{
+#abilities ul{
     text-align: right;;
     direction: rtl;
     list-style-position: inside;
@@ -54,20 +58,20 @@ main {
     margin-left: 55%;
 }
 
-#certificaciones{
+#certifications{
     text-align: left;
     color: white;
     margin-top: 20px;
 }
 
-#certificaciones ul{
+#certifications ul{
     text-align: left;;
     list-style-position: inside;
     color: white;
     margin-right: 50%;
 }
 
-#contactos {
+#contact {
     padding: 20px;
     text-align: center;
     color: white;
@@ -79,3 +83,4 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
