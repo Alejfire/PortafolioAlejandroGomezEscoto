@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+@media (max-width: 900px) {
+    .project {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 h2 {
     color: rgb(190, 187, 187);
     padding-top: 10px;
@@ -17,6 +24,42 @@ h3 {
 header {
     background-color: #f2f2f22e;    
     padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+.project {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 55%;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 45%;
+}
+
+
+.media video {
+    width: 560px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.media iframe {
+    width: 560px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+#disonancia {
+    padding-top: 40px;
     text-align: center;
     color: white;
 }
